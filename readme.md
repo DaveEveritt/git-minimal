@@ -1,17 +1,19 @@
 # GIT commands
 
-A deliberately minimal set of commands for using GIT as simply as possible.
-
-- GIT will ask for some details the first time you use it on a machine
-- this presumes you've created a simple repo on GitHub
-- don't create a readme.md file on GitHub, make it locally and push
-
-- [GIT commands](#git-commands)
   - [Setup](#setup)
   - [Work on another machine](#work-on-another-machine)
   - [Use a branch to test new code](#use-a-branch-to-test-new-code)
   - [Check history and rewind](#check-history-and-rewind)
   - [Resources](#resources)
+
+---
+
+A deliberately minimal set of commands for using GIT as simply as possible. Note:
+
+- GIT will ask for some details the first time you use it on a machine
+- this presumes you've created a simple repo on GitHub
+- don't create a readme.md file on GitHub, make it locally and push
+
 
 ## Setup
 

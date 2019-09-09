@@ -67,5 +67,5 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 
 ## Resources
 
-[Video tutorial for Git use in CTEC3905](https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ae4fefe-c3b9-4171-a381-f227e3e47c29)
-[git - the simple guide](https://rogerdudler.github.io/git-guide/)
+- [Video tutorial for Git use in CTEC3905](https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ae4fefe-c3b9-4171-a381-f227e3e47c29)  
+- [git - the simple guide](https://rogerdudler.github.io/git-guide/)

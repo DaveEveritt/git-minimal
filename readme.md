@@ -1,9 +1,10 @@
 # GIT commands
 
-  - [Setup](#setup)
+  - [Setup](#first-time-setup)
   - [Work on another machine](#work-on-another-machine)
   - [Use a branch to test new code](#use-a-branch-to-test-new-code)
   - [Check history and rewind](#check-history-and-rewind)
+  - [Change remote](#change-remote)
   - [Resources](#resources)
 
 ---
@@ -15,46 +16,56 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 - don't create a readme.md file on GitHub, make it locally and push
 
 
-## Setup
+## First-time setup
 
 1. git init
-2. git status
-3. git add .
-4. git commit -m “describe change”
-5. git status
-6. git remote add origin (URL of remote repo)
-7. git remote -v
-8. git push -u origin master
+1. git status
+1. git add .
+1. git commit -m “describe change”
+1. git status
+1. git remote add origin (URL of remote repo)
+1. git remote -v
+1. git push -u origin master
 
 ## Work on another machine
 
-9. git clone (URL of remote repo)
-10. (do some work)
-11. (repeat 2, 5)
-12. git push
+1. git clone (URL of remote repo)
+1. (do some work)
+1. git add .
+1. git commit -m “describe change”
+1. git push
 
 ## Use a branch to test new code
 
-13. git checkout -b branchname
-14. (do some work)
-15. (repeat 2-5)
-16. git push -u origin branchname
-17. git checkout master
-18. git diff master branchname
-19. (repeat 2-5 if necessary)
-20. git merge branchname
-21. (repeat 2-5 if necessary)
-22. git branch -a (lists all branches)
-23. git branch -d (use -D to force delete)
+1. git checkout -b branchname
+1. (do some work)
+1. git add .
+1. git commit -m “describe change”
+1. git push -u origin branchname
+1. git checkout master
+1. git diff master branchname
+1. (repeat 2-4 if necessary)
+1. git merge branchname
+1. (repeat 2-4 if necessary)
+1. git branch -a (lists all branches)
+1. git branch -d (use -D to force delete)
 
 ## Check history and rewind
 
-24. git log --pretty=oneline
-25. git fetch origin (override local changes)
-26. git reset --hard origin/master
-27. git checkout -- filename (restore previous version of file)
-28. git reset —hard HEAD~ (revert to previous commit)
+1. git log --pretty=oneline
+1. git fetch origin (override local changes)
+1. git reset --hard origin/master
+1. git checkout -- filename (restore previous version of file)
+1. git reset —hard HEAD~ (revert to previous commit)
+
+## Change remote
+
+1. git clone (URL of remote repo)
+1. git remote set-url origin (URL of new repo)
+1. git remote -v
+
 
 ## Resources
 
+[Video tutorial for Git use in CTEC3905](https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ae4fefe-c3b9-4171-a381-f227e3e47c29)
 [git - the simple guide](https://rogerdudler.github.io/git-guide/)

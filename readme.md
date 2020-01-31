@@ -1,9 +1,9 @@
 # GIT commands
 
-  - [Setup](#setup)
-  - [Work on another machine](#work-on-another-machine)
-  - [Use a branch to test new code](#use-a-branch-to-test-new-code)
-  - [Check history and rewind](#check-history-and-rewind)
+  - [Setup](#1.-setup)
+  - [Work on another machine](#2.-work-on-another-machine)
+  - [Use a branch to test new code](#3.-use-a-branch-to-test-new-code)
+  - [Check history and rewind](#4.-check-history-and-rewind)
   - [Resources](#resources)
 
 ---
@@ -15,46 +15,47 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 - don't create a readme.md file on GitHub, make it locally and push
 
 
-## Setup
+## 1. Setup
 
-1. git init
-2. git status
-3. git add .
-4. git commit -m “describe change”
-5. git status
-6. git remote add origin (URL of remote repo)
-7. git remote -v
-8. git push -u origin master
+1. `git init`
+2. `git status`
+3. `git add .`
+4. `git commit -m "describe change"`
+5. `git status`
+6. `git remote add origin URL_of_remote_repo_here`
+7. `git remote -v`
+8. `git push -u origin master`
 
-## Work on another machine
+## 2. Work on another machine
 
-9. git clone (URL of remote repo)
-10. (do some work)
-11. (repeat 2, 5)
-12. git push
+1. `git clone URL_of_remote_repo_here`
+2. (do some work)
+3. (repeat 2, 5)
+4. `git push`
 
-## Use a branch to test new code
+## 3. Use a branch to test new code
 
-13. git checkout -b branchname
-14. (do some work)
-15. (repeat 2-5)
-16. git push -u origin branchname
-17. git checkout master
-18. git diff master branchname
-19. (repeat 2-5 if necessary)
-20. git merge branchname
-21. (repeat 2-5 if necessary)
-22. git branch -a (lists all branches)
-23. git branch -d (use -D to force delete)
+1. `git checkout -b branchname_here`
+2. `git checkout -b branchname_here`
+3. (do some work)
+4. (repeat 2-5)
+5. `git push -u origin branchname_here`
+6. `git checkout master`
+7. `git diff master branchname_here`
+8. (repeat 2-5 if necessary)
+9. `git merge branchname_here`
+10. (repeat 2-5 if necessary)
+11. `git branch -a` (lists all branches)
+12. `git branch -d` (use `-D` to force delete)
 
-## Check history and rewind
+## 4. Check history and rewind
 
-24. git log --pretty=oneline
-25. git fetch origin (override local changes)
-26. git reset --hard origin/master
-27. git checkout -- filename (restore previous version of file)
-28. git reset —hard HEAD~ (revert to previous commit)
+1. `git log --pretty=oneline`
+2. `git fetch origin` (override local changes)
+3. `git reset --hard origin/master`
+4. `git checkout -- filename_here` (restore previous version of file)
+5. `git reset —hard HEAD~` (revert to previous commit)
 
 ## Resources
 
-[git - the simple guide](https://rogerdudler.github.io/git-guide/)
+[git - the simple guide (Roger Dudler)](https://rogerdudler.github.io/git-guide/)

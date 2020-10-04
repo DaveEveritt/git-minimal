@@ -11,9 +11,9 @@
 
 A deliberately minimal set of commands for using GIT as simply as possible. Note:
 
-- GIT will *ask for some details* the first time you use it on a machine
-- these instructions will *need a repo on GitHub* for you to push to
-- *don't* create a readme.md file on GitHub, make it locally and push
+1. GIT will *ask for some details* the first time you use it on a machine
+2. these instructions will *need a repo on GitHub* for you to push to
+3. *don't* create a readme.md file on GitHub, make it locally and push
 
 ## 1. Setup a new repository
 
@@ -68,4 +68,4 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 ## Resources
 
 - [git - the simple guide (Roger Dudler)](https://rogerdudler.github.io/git-guide/)
-- [Video tutorial for Git use in computer labs](https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ae4fefe-c3b9-4171-a381-f227e3e47c29)  
+- Fania's [video walkthrough for Git use in the labs](https://dmureplay.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ae4fefe-c3b9-4171-a381-f227e3e47c29)  

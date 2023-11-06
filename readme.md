@@ -1,10 +1,11 @@
 # GIT commands
 
-  - [Setup a new repository](#1.-setup-a-new-repository)
-  - [Work on another machine](#2.-work-on-another-machine)
-  - [Use a branch to test new code](#3.-use-a-branch-to-test-new-code)
-  - [Check history and rewind](#4.-check-history-and-rewind)
-  - [Change remote](#5.-change-remote)
+- [GIT commands](#git-commands)
+  - [Setup a new repository](#setup-a-new-repository)
+  - [Work on another machine](#work-on-another-machine)
+  - [Use a branch to test new code](#use-a-branch-to-test-new-code)
+  - [Check history and rewind](#check-history-and-rewind)
+  - [Change remote](#change-remote)
   - [Resources](#resources)
 
 ---
@@ -15,7 +16,7 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 2. these instructions will *need a repo on GitHub* for you to push to
 3. *don't* create a readme.md file on GitHub, make it locally and push
 
-## 1. Setup a new repository
+## Setup a new repository
 
 1. `git init`
 2. `git status`
@@ -26,7 +27,7 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 7. `git remote -v`
 8. `git push -u origin master`
 
-## 2. Work on another machine
+## Work on another machine
 
 1. `git clone URL_of_remote_repo_here`
 2. (do some work)
@@ -35,7 +36,7 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 5. `git status`
 6. `git push`
 
-## 3. Use a branch to test new code
+## Use a branch to test new code
 
 1. `git checkout -b branchname_here`
 2. (do some work)
@@ -51,7 +52,7 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 12. `git branch -a` (lists all branches)
 13. `git branch -d` (use `-D` to force delete)
 
-## 4. Check history and rewind
+## Check history and rewind
 
 1. `git log --pretty=oneline`
 2. `git fetch origin` (override local changes)
@@ -59,11 +60,13 @@ A deliberately minimal set of commands for using GIT as simply as possible. Note
 4. `git checkout -- filename_here` (restore previous version of file)
 5. `git reset —hard HEAD~` (revert to previous commit)
 
-## 5. Change remote
+## Change remote
 
 1. `git clone URL_of_remote_repo`
 2. `git remote set-url origin URL_of_NEW_repo`
 3. `git remote -v`
+
+---
 
 ## Resources
 
